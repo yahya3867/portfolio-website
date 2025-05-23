@@ -31,6 +31,7 @@ export default function Publications() {
         <div className="max-w-4xl mx-auto">
           <section>
             <h1 className="text-4xl mb-6">Publications</h1>
+            <div className="border-b border-gray-200 w-full mb-8"></div>
             <div className="space-y-8">
               {publications.map(pub => (
                 <div key={pub.id} className="border-b pb-6">
