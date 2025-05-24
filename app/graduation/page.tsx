@@ -17,21 +17,23 @@ export default function Graduation() {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-full h-auto rounded-lg overflow-hidden shadow-lg">
                 <Image
                   src="/Grad.png"
                   alt="Graduation Photo 1"
-                  fill
-                  className="object-cover"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto object-contain"
                   priority
                 />
               </div>
-              <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-full h-auto rounded-lg overflow-hidden shadow-lg">
                 <Image
                   src="/Grad2.png"
                   alt="Graduation Photo 2"
-                  fill
-                  className="object-cover"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto object-contain"
                   priority
                 />
               </div>
