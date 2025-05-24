@@ -33,6 +33,14 @@ export default function Home() {
                 <h2 className="text-2xl font-semibold mb-6">Latest News</h2>
                 <ul className="space-y-4">
                   <li className="flex items-start">
+                    <span className="text-sm text-gray-500 w-32 flex-shrink-0">May 2025</span>
+                    <div className="flex-1">
+                      <a href="/graduation" className="text-gray-700 hover:text-[#8651d6]">
+                        Graduated from NOVA with my A.S. in Computer Science
+                      </a>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
                     <span className="text-sm text-gray-500 w-32 flex-shrink-0">March 2025</span>
                     <div className="flex-1">
                       <p className="text-gray-700">Paper on "Optimizing context-based location extraction" submitted to IJDE International Journal of Digital Earth.</p>

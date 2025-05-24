@@ -1,0 +1,44 @@
+import Navigation from '@/components/Navigation';
+import Image from 'next/image';
+
+export default function Graduation() {
+  return (
+    <main className="min-h-screen py-8">
+      <Navigation />
+      
+      <div className="px-4">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-4xl mb-6">NOVA Graduation 2025</h1>
+          <div className="border-b border-gray-200 w-full mb-8"></div>
+          
+          <div className="space-y-8">
+            <p className="text-gray-700 text-lg mb-8">
+              Graduated from Northern Virginia Community College with an Associate of Science in Computer Science.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="/Grad.png"
+                  alt="Graduation Photo 1"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+              <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="/Grad2.png"
+                  alt="Graduation Photo 2"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+} 
