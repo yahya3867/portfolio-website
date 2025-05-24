@@ -29,30 +29,36 @@ export default function Home() {
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-2xl font-semibold mb-6">Latest News</h2>
-                <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <span className="text-sm text-gray-500 w-32 flex-shrink-0">November 2024</span>
-                    <div className="flex-1">
-                      <p className="text-gray-700">Presented updated findings on context-aware location extraction at the STC IAB at GMU.</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-sm text-gray-500 w-32 flex-shrink-0">July 2024</span>
-                    <div className="flex-1">
-                      <p className="text-gray-700">Presented findings on conflict incident classification using a BERT model at the 2024 International Symposium of Spatiotemporal Data Science.</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-sm text-gray-500 w-32 flex-shrink-0">May 2024</span>
-                    <div className="flex-1">
-                      <p className="text-gray-700">Presented findings on context-aware location extraction at the STC IAB at Harvard.</p>
-                    </div>
-                  </li>
-                </ul>
-              </section>
-
+            <section className="mb-8">
+              <h2 className="text-2xl font-semibold mb-6">Latest News</h2>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <span className="text-sm text-gray-500 w-32 flex-shrink-0">May 2025</span>
+                  <div className="flex-1">
+                    <p className="text-gray-700">Graduated from NOVA with my A.S. in Computer Science</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-sm text-gray-500 w-32 flex-shrink-0">November 2024</span>
+                  <div className="flex-1">
+                    <p className="text-gray-700">Presented updated findings on context-aware location extraction at the STC IAB at GMU.</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-sm text-gray-500 w-32 flex-shrink-0">July 2024</span>
+                  <div className="flex-1">
+                    <p className="text-gray-700">Presented findings on conflict incident classification using a BERT model at the 2024 International Symposium of Spatiotemporal Data Science.</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-sm text-gray-500 w-32 flex-shrink-0">May 2024</span>
+                  <div className="flex-1">
+                    <p className="text-gray-700">Presented findings on context-aware location extraction at the STC IAB at Harvard.</p>
+                  </div>
+                </li>
+              </ul>
+            </section>
+              
               <section className="mb-12">
                 <h2 className="text-2xl font-semibold mb-6">Current Projects</h2>
                 <ul className="space-y-3">
