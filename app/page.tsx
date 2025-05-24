@@ -35,27 +35,9 @@ export default function Home() {
                   <li className="flex items-start">
                     <span className="text-sm text-gray-500 w-32 flex-shrink-0">May 2025</span>
                     <div className="flex-1">
-                      <a href="/graduation" className="text-gray-700 hover:text-[#8651d6]">
-                        Graduated from NOVA with my A.S. in Computer Science
-                      </a>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-sm text-gray-500 w-32 flex-shrink-0">March 2025</span>
-                    <div className="flex-1">
-                      <p className="text-gray-700">Paper on "Optimizing context-based location extraction" submitted to IJDE International Journal of Digital Earth.</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-sm text-gray-500 w-32 flex-shrink-0">February 2025</span>
-                    <div className="flex-1">
-                      <p className="text-gray-700">Started development on Data Center Digital Twin project using NVIDIA Omniverse.</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-sm text-gray-500 w-32 flex-shrink-0">January 2025</span>
-                    <div className="flex-1">
-                      <p className="text-gray-700">Achieved 91% accuracy in conflict incident classification using fine-tuned BERT models.</p>
+                      <p className="text-gray-700">
+                        <a href="/graduation" className="text-[#8651d6] hover:underline">Graduated</a> from NOVA with my A.S. in Computer Science
+                      </p>
                     </div>
                   </li>
                   <li className="flex items-start">
