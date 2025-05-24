@@ -13,7 +13,7 @@ export default function Home() {
               <section className="mb-8">
                 <h1 className="text-4xl mb-2"><strong>Yahya</strong> Masri</h1>
                 <p className="text-lg mb-6">
-                  <strong>Junior CS Student, UGA at <a href="https://www.gmu.edu/" className="text-[#8651d6] hover:underline">GMU</a> | <a href="https://www.stcenter.net/" className="text-[#8651d6] hover:underline">NSF Spatiotemporal Innovation</a></strong>
+                  <strong>Junior CS Student, URA at <a href="https://www.gmu.edu/" className="text-[#8651d6] hover:underline">GMU</a> | <a href="https://www.stcenter.net/" className="text-[#8651d6] hover:underline">NSF Spatiotemporal Innovation</a></strong>
                 </p>
                 <p className="text-gray-700 mb-4">
                   I am a junior at <a href="https://www.gmu.edu/" className="text-[#8651d6] hover:underline">George Mason University</a> majoring in <a href="https://cs.gmu.edu/" className="text-[#8651d6] hover:underline">Computer Science</a>. I am also an Undergraduate Research Assistant at the <a href="https://www.stcenter.net/" className="text-[#8651d6] hover:underline">NSF Spatiotemporal Innovation Center</a>, and earned an A.S. in Computer Science from <a href="https://www.nvcc.edu/" className="text-[#8651d6] hover:underline">Northern Virginia Community College</a>.
