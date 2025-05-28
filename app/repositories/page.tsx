@@ -72,6 +72,23 @@ export default function Repositories() {
             <section>
               <h2 className="text-2xl font-semibold mb-6">Featured Projects</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <a href="https://github.com/yahya3867/Comparative-Analysis-of-BERT-and-GPT-for-Classifying-Crisis-News-with-Sudan-Conflict-as-an-Example" className="block hover:opacity-90 transition-opacity">
+                  <picture>
+                    <source
+                      srcSet="https://github-readme-stats.vercel.app/api/pin/?username=yahya3867&repo=Comparative-Analysis-of-BERT-and-GPT-for-Classifying-Crisis-News-with-Sudan-Conflict-as-an-Example&theme=jolly"
+                      media="(prefers-color-scheme: dark)"
+                    />
+                    <source
+                      srcSet="https://github-readme-stats.vercel.app/api/pin/?username=yahya3867&repo=Comparative-Analysis-of-BERT-and-GPT-for-Classifying-Crisis-News-with-Sudan-Conflict-as-an-Example&theme=jolly"
+                      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+                    />
+                    <img 
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=yahya3867&repo=Comparative-Analysis-of-BERT-and-GPT-for-Classifying-Crisis-News-with-Sudan-Conflict-as-an-Example&theme=jolly" 
+                      alt="Comparative Analysis of BERT and GPT"
+                      className="w-full"
+                    />
+                  </picture>
+                </a>
                 <a href="https://github.com/yahya3867/BlueTemp" className="block hover:opacity-90 transition-opacity">
                   <picture>
                     <source
